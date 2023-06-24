@@ -1,0 +1,28 @@
+{
+  "name": "@tempojs/fs-credential-storage",
+  "version": "1.0.0",
+  "description": "a file-system credential storage strategy for Tempo clients",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mock-fs": "^4.13.1",
+    "mock-fs": "^5.2.0",
+    "tsup": "^7.0.0",
+    "vitest": "^0.32.2"
+  },
+  "dependencies": {
+    "@tempojs/client": "^0.0.6"
+  }
+}
