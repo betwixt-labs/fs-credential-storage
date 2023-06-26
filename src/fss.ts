@@ -34,7 +34,6 @@ const appDataDir = (namespace: string) => {
     default:
       throw new Error("Unsupported platform");
   }
-  console.log("appDataDir", appDataDir);
   return path.join(appDataDir, namespace);
 };
 
