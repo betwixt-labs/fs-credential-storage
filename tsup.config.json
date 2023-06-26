@@ -3,9 +3,9 @@
   "dts": true,
   "entry": ["src/index.ts"],
   "format": ["cjs", "esm"],
-  "minify": true,
+  "minify": false,
   "sourcemap": true,
   "splitting": false,
   "outDir": "./dist",
-  "external": ["@tempojs/client", "@tempojs/common"]
+  "external": ["@tempojs/common", "@tempojs/client", "bebop"]
 }
